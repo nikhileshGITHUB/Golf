@@ -53,7 +53,7 @@ public class testgolfautomation {
        dateBox.sendKeys(Keys.CONTROL + "a");
        dateBox.sendKeys(Keys.DELETE);
         
-     dateBox.sendKeys("02-Aug-2024");
+     dateBox.sendKeys("30-Aug-2024");
         
         
    //  dateBox.sendKeys(Keys.ENTER);
