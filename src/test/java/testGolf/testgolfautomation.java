@@ -53,7 +53,7 @@ public class testgolfautomation {
        dateBox.sendKeys(Keys.CONTROL + "a");
        dateBox.sendKeys(Keys.DELETE);
         
-     dateBox.sendKeys("30-Aug-2024");
+     dateBox.sendKeys("4-Sep-2024");
         
         
    //  dateBox.sendKeys(Keys.ENTER);
@@ -156,9 +156,9 @@ public class testgolfautomation {
 //        		
        	Payment.click();
         		
-        		 // WebElement Makepayment = driver.findElement(By.xpath("//button[text()='Make Payment']"));
+        		  WebElement Makepayment = driver.findElement(By.xpath("//button[text()='Make Payment']"));
         	      
-        		 // Makepayment.click();
+        		  Makepayment.click();
     }
         	      
         		
